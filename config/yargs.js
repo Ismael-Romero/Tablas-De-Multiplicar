@@ -11,8 +11,8 @@ const argv = require('yargs')
         demandOption: false,
         describe: 'Establece un limite de la tabla de multiplicar'
     })
-    .option('ls', {
-        alias: 'list',
+    .option('s', {
+        alias: 'show',
         type: 'boolean',
         default: false,
         demandOption: false,

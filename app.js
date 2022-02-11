@@ -7,6 +7,6 @@ console.log('|---------------------------------|');
 console.log(`| Multiplication table of ${argv.b} x ${argv.l} |`);
 console.log('|---------------------------------|');
 
-createFile(argv.b, argv.l, argv.ls)
+createFile(argv.b, argv.l, argv.s)
     .then( fileName => console.log(colors.green(fileName,' File Created')))
     .catch( err => console.log(colors.red(err)));
